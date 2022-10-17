@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+.productlist {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.productlist li{
+position: relative;
+float: left;
+width: 30%;
+height: 300px;
+border: 1px solid black;
+margin-bottom: 5px;
+margin-left: 5px;
+padding: 10px;
+box-shadow: 2px 2px 2px 2px gray;
+}
+.productlist img{
+    width: 100%;
+}
+.productlist h3{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.productlist span{
+    display: block;
+    line-height:10px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+.oldprice{
+   
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.Sprice{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+}
+.bnt{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background: black;
+    border-radius: 25px;
+}
+.bnt a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.triangle{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 3px solid red;
+    background: red;
+}
+.triangle p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.cart{
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    border: 5px dotted red;
+    border-radius: 25px;
+    background: blue;
+    width: 150px;
+    height: 60px;
+}
+.cart a{
+    display: block;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+}
