@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    }
+/*header-topbar start*/
+.topbar .tw{
+    color: #00aaec;
+}
+.topbar .fb{
+    color:#4460a0;
+}
+.topbar{
+    background: #f5f5f5;
+}
+.social-bnt{
+    width: 250px;
+}
+.social-bnt .fb{
+border-right: 2px solid #cccc;
+margin-right: 10px;
+}
+.topbar .social-bnt a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0;
+}
+.topbar .social-bnt a:hover{
+    font-weight: bolder;
+}
+.topbar .social-bnt img{
+float: left;
+margin-bottom: 5px;
+}
+.topbar .social-bnt{
+    float: right;
+}
+.topbar .social-bnt ul{
+    display: flex;
+}
+.social-bnt li{
+    width: 90px;
+}
+.topbar li span{
+    margin-top: 5px ;
+    float: left;
+}
+
+/* header-topbar end */
+/* header-menu start*/
+.logo-menu{
+
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    display: block;
+    background: url(../img/hexlogo.png) no-repeat 10px 0 ;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden; 
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+}
+.logo-menu .menu{
+    margin-right: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-menu .menu a{
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 17px;
+    color: #00cc99;
+    padding: 20px 0;
+}
+.logo-menu .menu li:hover{
+    border-bottom:2px #00cc99 solid  ;
+}
+/* header-menu end*/
+/* footer start */
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Contact-Us{
+    margin-right: 30px;
+    font-size: 14px;
+}
+.Contact-Us a{
+    text-decoration: none;
+    color: #e12f81;
+}
+.Contact-Us a:hover{
+    border-bottom: 2px solid #e12f81;
+}
+.footlogo{
+ margin: 20px 0;
+}
+/* footer end */
+
+/* content start */
+.banner{
+    display: flex;
+    align-items: center;
+    background: url(../img/banner.png);
+    height: 346px;
+    background-size:cover
+}
+.banner h2{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    padding: 30px 20px;
+    line-height: 1.5;
+}
+.course{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.course ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+.course li{
+    box-shadow: 3px 3px 3px gray;
+    width: 30%;
+    padding: 10px;
+}
+.course p{
+    text-align: left;
+}
+
+.course img{
+    height: 150px;
+    width: 150px;
+}
+.jq li{
+    width: 100%;
+    list-style-type: disc;
+    text-align: left;
+    box-shadow: 0 0 0 0;
+}
+
+
+table th,td{
+    text-align: left;
+    border-bottom: 1px solid #cccc;
+    padding: 10px 0;
+    font-weight: bold;
+    }
+table {
+    margin: 0 100px;
+    width: 90%;
+    }
+.form h2{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    }
+.title{
+    background: #f7f7f7;
+    }
+.tx:hover{
+background: #c9e7df;
+}
+.gren{
+    color: #00a67d;
+    }
+
+.inputbg{
+    background: linear-gradient(#00664D, #009671);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    
+}
+
+.inputbg h3{
+    text-align: center;
+    color: #ffff;
+    font-size: 32px;
+    padding: 20px 0;
+}
+.inputbg form{
+padding: 20px;
+display: flex;
+justify-content: space-around;
+}    
+label{
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 50px;
+}
+input{
+    border-radius: 15px;
+    width: 500px;
+    height: 50px;
+    
+}
+.input-form .left textarea{
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+    font-size: 25px;
+    padding: 10px;
+}
+form .subbnt{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    background: #00CC99;
+    border: 0px;
+    float: right;
+    color: #ffff;
+}
+input:active ,textarea:active{
+box-shadow: 5px 5px 5px rgb(174, 255, 11);
+}
+input:hover ,textarea:hover{
+    font-weight: bolder;
+}
+
+/* content end */
