@@ -731,6 +731,11 @@ box-shadow: 2px 2px 2px 2px gray;
     font-weight: bold;
     color: white;
 }
+@media (max-width:800px){
+    .triangle p{
+        font-size: 15px;
+    }
+}
 .cart{
     position: fixed;
     bottom: 0;
