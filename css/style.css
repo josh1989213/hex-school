@@ -646,13 +646,19 @@ input:hover ,textarea:hover{
 /*product.css start*/
 
 .wrap{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
+
 .productlist {
     width: 900px;
     margin: 0 auto;
     padding: 20px;
+}
+@media(max-width:800px){
+    .productlist{
+        padding-right: 10px;
+    }
 }
 .productlist li{
 position: relative;
