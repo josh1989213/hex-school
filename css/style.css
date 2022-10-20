@@ -412,8 +412,8 @@ margin-right: 10px;
 }
 @media  (max-width:820px){
     .social-bnt span{
-       visibility: hidden;
-    }
+    font-size:100% ;
+}
 }
 @media (max-width:820px){
     .topbar .fb{
@@ -651,7 +651,7 @@ input:hover ,textarea:hover{
 }
 
 .productlist {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -680,6 +680,7 @@ box-shadow: 2px 2px 2px 2px gray;
         width: 45%
     }
 }
+
 .productlist img{
     width: 100%;
 }
@@ -710,8 +711,8 @@ box-shadow: 2px 2px 2px 2px gray;
 }
 .bnt{
     margin: 0 auto;
-    margin-top: 10px;
-    width: 100px;
+    margin-top: 15px;
+    max-width: 100px;
     height: 30px;
     border: 1px solid black;
     background: black;
