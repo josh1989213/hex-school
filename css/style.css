@@ -668,7 +668,7 @@ height: 300px;
 border: 1px solid black;
 margin-bottom: 5px;
 margin-left: 5px;
-padding: 10px;
+/* padding: 10px; */
 box-shadow: 2px 2px 2px 2px gray;
 }
 @media (max-width:600px){
@@ -677,7 +677,8 @@ box-shadow: 2px 2px 2px 2px gray;
         margin: 0;
     }
     .productlist li{
-        width: 45%
+        width: 45%;
+        margin:0 15px 0 0;
     }
 }
 
