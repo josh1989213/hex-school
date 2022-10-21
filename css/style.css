@@ -353,9 +353,16 @@
 
 /* normalize.css end */
 /*global start*/
-*{
+
+/*rwd必備css reset*/
+*,*::after,*::before{
     box-sizing: border-box;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* rwd必備css reset */
 body{
     max-width: 1024px;
     margin: 0 auto;
@@ -553,10 +560,11 @@ footer{
 }
 @media(max-width:768px){
     .course ul{
-        display: block;
+        flex-wrap: wrap;
     }
     .course li{
         max-width:100%;
+        margin-bottom: 10px;
     }
 }
 .course p{
@@ -577,6 +585,9 @@ footer{
     .form{
         max-width: 700px;
         margin-right: 20%;
+}
+.jq{
+    width: 100%;
 }
 }
 
@@ -660,7 +671,7 @@ input{
 }
 @media(max-width:768px){
     .input-form form{
-        display: block;
+        flex-wrap: wrap;
     }
     input{
         width: 400px;
